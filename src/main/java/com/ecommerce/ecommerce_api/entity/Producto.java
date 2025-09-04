@@ -13,8 +13,8 @@ public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_producto;
-    private String nombre;
-    private String descripcion;
+    private String nombreProducto;
+    private String descripcionProducto;
     private BigDecimal precio;
     private Integer stock;
     private String talla;
@@ -28,20 +28,20 @@ public class Producto {
         this.id_producto = id_producto;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombreProducto() {
+        return nombreProducto;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombreProducto(String nombreProducto) {
+        this.nombreProducto = nombreProducto;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getDescripcionProducto() {
+        return descripcionProducto;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public void setDescripcionProducto(String descripcionProducto) {
+        this.descripcionProducto = descripcionProducto;
     }
 
     public BigDecimal getPrecio() {

@@ -10,22 +10,22 @@ public class TipoPrenda {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_tipo;
-    private String nombre;
+    private Long id_tipoPrenda;
+    private String nombrePrenda;
 
-    public Long getId_tipo() {
-        return id_tipo;
+    public Long getId_tipoPrenda() {
+        return id_tipoPrenda;
     }
 
-    public void setId_tipo(Long id_tipo) {
-        this.id_tipo = id_tipo;
+    public void setId_tipoPrenda(Long id_tipoPrenda) {
+        this.id_tipoPrenda = id_tipoPrenda;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombrePrenda() {
+        return nombrePrenda;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombrePrenda(String nombrePrenda) {
+        this.nombrePrenda = nombrePrenda;
     }
 }
